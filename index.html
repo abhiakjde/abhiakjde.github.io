@@ -10,4 +10,15 @@
 <body>
 Hello World
 </body>
+<footer>
+<script type = "text/javascript">
+
+analytics.identify(' {{user.id}} ', {
+  name: '{{user.fullname}}',
+  email: '{{user.email}}'
+});
+
+
+</script>
+</footer>
 </html>
